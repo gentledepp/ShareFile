@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8.1">
     <id>Plugin.ShareFile</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <title>ShareFile Plugin</title>
     <authors>Niels Cup</authors>
     <owners>Niels Cup</owners>
@@ -32,5 +32,10 @@
     <!--Xamarin.iOS-->
     <file src="ShareFile/Plugin.ShareFile.iOSUnified/bin/iPhone/Release/Plugin.ShareFile.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.ShareFile.Abstractions.dll" />
     <file src="ShareFile/Plugin.ShareFile.iOSUnified/bin/iPhone/Release/Plugin.ShareFile.dll" target="lib\Xamarin.iOS10\Plugin.ShareFile.dll"/>   
+	
+	<!-- Xamarin.UWP -->
+	<file src="ShareFile/Plugin.ShareFile.UWP/bin/Release/Plugin.ShareFile.Abstractions.dll" target="lib\UAP10\Plugin.ShareFile.Abstractions.dll" />
+	<file src="ShareFile/Plugin.ShareFile.UWP/bin/Release/Plugin.ShareFile.dll" target="lib\UAP10\Plugin.ShareFile.dll" />
+	
   </files>
 </package>

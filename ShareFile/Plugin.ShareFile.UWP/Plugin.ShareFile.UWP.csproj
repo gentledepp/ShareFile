@@ -7,8 +7,8 @@
     <ProjectGuid>{BFEA76A2-10BF-432A-AE95-B910F42EBCCE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Plugin.ShareFile.UWP</RootNamespace>
-    <AssemblyName>Plugin.ShareFile.UWP</AssemblyName>
+    <RootNamespace>Plugin.ShareFile</RootNamespace>
+    <AssemblyName>Plugin.ShareFile</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
@@ -54,7 +54,7 @@
     <Optimize>true</Optimize>
     <NoWarn>;2008</NoWarn>
     <DebugType>pdbonly</DebugType>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
