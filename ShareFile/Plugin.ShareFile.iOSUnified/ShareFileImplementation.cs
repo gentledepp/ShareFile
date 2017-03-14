@@ -48,6 +48,7 @@ namespace Plugin.ShareFile
 
                 UIActivity[] applicationActivities = null;
                 var activityViewController = new UIActivityViewController(sharedItems.ToArray(), applicationActivities);
+                activityViewController.PopoverPresentationController.SourceView = rootController.View;
 
                 // Subject
                 if (!string.IsNullOrWhiteSpace(title))
